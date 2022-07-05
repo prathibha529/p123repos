@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "p123ADF2"
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"p123Linkesstg1_connectionString": {
+			"value": ""
+		}
+	}
+}
