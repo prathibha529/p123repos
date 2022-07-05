@@ -1,0 +1,25 @@
+{
+	"name": "OutputDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "p123Linkesstg1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "odata1.csv",
+				"folderPath": "output",
+				"container": "p123stgcon1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

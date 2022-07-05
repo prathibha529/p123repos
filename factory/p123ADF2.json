@@ -1,0 +1,9 @@
+{
+	"name": "p123ADF2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db161608-28a5-4820-a090-f36c56f4358e",
+		"tenantId": "bf2e1e55-353a-42e3-b5a4-afcb09df0f9b"
+	}
+}
